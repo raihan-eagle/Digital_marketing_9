@@ -1,0 +1,22 @@
+.title{
+    color: turquoise;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.image-style{
+    border: 5px solid turquoise;
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+.img-size img{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}

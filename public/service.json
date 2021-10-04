@@ -1,0 +1,58 @@
+[
+    {
+      "name":"Social Media Marketing",
+      "id":1,
+      "Description":"We will tailor Social Media Marketing strategies specifically conceived for your brand and your audience. You’ll get fully supported and managed social programs, content planning (and generation), blogger outreach and video distribution among other services that aim to attract new customers and increase your profitability . Our Social Media Services give you the possibility to connect and share information leading to an increase of the brand’s, product’s or service’s awareness. The results of Social Media Advertising are reflected in the number of re-tweets, shares, comments, likes and views. Social Media Marketing encourages user-generated content from within the most popular social media platforms such as Facebook, Google+, Twitter, Pinterest and LinkedIn.",
+      "url":"https://i.ibb.co/NKKmp93/services-socialmediamarketing-alt-colors-optimized.png",
+      "packages":"Monthly",
+      "Price":2500
+    },
+    {
+      "name":"Search Engine Optimization & Marketing",
+      "id":2,
+      "Description":"Search Engine Optimization is fundamental to success. Our SEO strategies will earn your site a higher ranking in search results. We’ll provide a full SEO keyword rankings report, a link building profile report and indexed page information. Our customer focused team will improve your traffic flow and increase sales for your web-based operations.",
+      "url":"https://i.ibb.co/W2DHnkn/services-seo-optimized.png",
+      "packages":"Monthly",
+      "Price":2500
+    },
+    {
+      "name":"Company online presence analysis and audit",
+      "id":3,
+      "Description":"A thorough audit identifies and rectifies any potential obstacles to the performance of your website and helps build the foundation for your wider, digital marketing efforts. The complete analysis provides comprehensive design recommendations, content marketing strategies and a plan that guarantees the support of your business needs and objectives. It also allows us to set and define appropriate aims and goals which plays an important role in your personalized marketing campaigns.",
+      "url":"https://i.ibb.co/9bLmdfR/services-analytics-alt-colors-optimized.png",
+      "packages":"Monthly",
+      "Price":2500
+    },
+    {
+      "name":"Email Marketing",
+      "id":4,
+      "Description":"Email marketing provides an effective connection with your targeted audience and gives you the best return on investment. Reach out to your current and potential customers and keep them updated on your company’s latest deals and news.",
+      "url":"https://i.ibb.co/4FLy9Pm/services-marketingresearch-optimized.png",
+      "packages":"Monthly",
+      "Price":2500
+    },
+    {
+      "name":"Content Marketing Strategy",
+      "id":5,
+      "Description":"Content Marketing builds communities, inspires engagement and increases rankings via creation and sharing of high quality, problem-solving relevant information, aiming to satisfy business objectives. It helps influence consumer behavior, with the end goal of boosting sales and increasing interaction between the brand and customer",
+      "url":"https://i.ibb.co/b5M4NX3/services-webdesign-optimized-1.png",
+      "packages":"Monthly",
+      "Price":2500
+    },
+    {
+      "name":"Pay Per Click",
+      "id":6,
+      "Description":"Our campaign strategies are designed to meet the needs of our clients and their market condition. We provide up-to-date, Pay Per Click services that include: Paid Search Ads, Video Advertising, Display Ads, PPC Remarketing and Social Advertising . We deliver results that help our clients achieve their business objectives. We manage our clients’ accounts on a daily basis and monitor bid prices and budgets to ensure that we are maximizing ROI. Our outstanding results are due to our complex and tailored approach which includes a detailed overview of our client's business and aspirations for Pay Per Click advertising, as well as a review of options featuring a prioritized list of recommended activities.",
+      "url":"https://i.ibb.co/fd5cBWw/services-payperclick-optimized.png",
+      "packages":"Monthly",
+      "Price":2500
+    },
+    {
+      "name":"Web Site Design",
+      "id":7,
+      "Description":"Enhance your website with a blog, incorporate live chat to convert more visitors into customers, and get opt-in for newsletter automatically integrated into your email lists. Spark sales with DealerFire’s responsive websites and digital marketing. Powered by DealerSocket’s data platform, DealerFire delivers innovative design, easy-to-use advanced technology, and superior customer service. ",
+      "url":"https://i.ibb.co/q5DL76N/website.png",
+      "packages":"Medium/ Dynamic",
+      "Price":15000
+    }
+  ]
