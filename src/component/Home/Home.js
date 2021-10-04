@@ -69,6 +69,16 @@ const Home = () => {
                     
                 </div>
             </div>
+            <div>
+                <div className='bg-danger p-1 d-flex m-3 rounded'>
+                    <div>
+                        <img className='image-style m-3' src="https://i.ibb.co/pWffrmc/erika.jpg" alt="" />
+                    </div>
+                    <div className='text-tes'>
+                        <p>" I worked with Etech-Solutions with my popular blog and impressed with the amazing tech skills this team possess. Also ran into a serious Wordpress issue solved by Etech-Solutions within hours. Great design skills quick response is what makes me happy to recommend them. " - <span className='title-here'>Patricia</span></p>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

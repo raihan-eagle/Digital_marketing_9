@@ -36,6 +36,23 @@ const Testimonials = () => {
                     <img className='image-style m-3' src="https://i.ibb.co/BKwYFzs/mj-rahman-e1450945002509.jpg" alt="" />
                 </div>
             </div>
+            <br />
+            <br />
+            <div className='bg-danger p-1 d-flex m-3 rounded'>
+                <div>
+                    <img className='image-style m-3' src="https://i.ibb.co/1M2k18k/3117121.jpg" alt="" />
+                </div>
+                <div className='text-tes'>
+                    <p>" I worked with Etech-Solutions with my new website and glad that I choose them earlier. I was a newbi in this field but they helped to understand all the jurgons and helped me to develope my full functional online shop. They really have amazing tech skills  " - <span className='title-here'>Alan </span></p>
+                </div>
+            </div>
+            <div className='d-flex justify-content-center align-items-around'>
+                
+                
+                <img  src="https://i.ibb.co/NKKmp93/services-socialmediamarketing-alt-colors-optimized.png" alt="" />
+                <img  src="https://i.ibb.co/9bLmdfR/services-analytics-alt-colors-optimized.png" alt="" />
+                
+            </div>
         </div>
     );
 };
