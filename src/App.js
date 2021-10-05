@@ -1,6 +1,6 @@
 
 import './App.css';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Services from './component/Services/Services';
 import Aboutus from './component/Aboutus/Aboutus';
 import Testimonials from './component/Testimonials/Testimonials';
@@ -11,7 +11,7 @@ import Footer from './component/Footer/Footer';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Header></Header>
       
       <Switch>
@@ -35,7 +35,7 @@ function App() {
         </Route>
       </Switch>
       <Footer></Footer>
-    </BrowserRouter>
+    </Router>
   );
 }
 

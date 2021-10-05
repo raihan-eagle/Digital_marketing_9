@@ -1,24 +1,29 @@
 import React from 'react';
 import './Aboutus.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMailBulk } from '@fortawesome/free-solid-svg-icons'
 
 const Aboutus = () => {
+    const element = <FontAwesomeIcon icon={faMailBulk} />
     return (
         <div className='container'>
             <br />
             <hr />
             <br />
+            {/* Section heading */}
             <h1 className='text-center'><span className='title'>About US</span> Etech-Solution Team</h1>
-            
+            {/* Section heading */}
             <h1 className='text-center p-3 m-3 fw-regular'>
                 A Full service <span className='title'>Digital Marketing Agency</span>
             </h1>
             <br />
             <br />
+            {/* Section heading */}
             <h2 className='text-center fw-lighter'>
                 Our team develops effective content strategies for forward thinking companies. We have a proven track record in increasing search engine rankings
             </h2>
             <br />
-            
+            {/* Section images */}
             <div className='d-flex justify-content-center align-items-center'>
                 <img className='image-style' src="https://i.ibb.co/W2DHnkn/services-seo-optimized.png" alt="" />
                 <img className='image-style' src="https://i.ibb.co/fd5cBWw/services-payperclick-optimized.png" alt="" />
@@ -28,12 +33,14 @@ const Aboutus = () => {
             </div>
             
             <br />
+            {/* Section heading */}
             <h1 className='text-center fw-lighter'>
                 We pursue relationships based on transparency, persistence, mutual trust, and integrity with our employees, customers and other business partners.
             </h1>
             <br />
             <br />
             <br />
+            {/* Section Team profile */}
             <h2 className='text-center bg-info rounded p2-3 pb-2 text-light'>Team Members</h2>
             <br />
             <div>
@@ -82,16 +89,16 @@ const Aboutus = () => {
                                 <img src="https://i.ibb.co/pdjQZX4/OIP.jpg" className="card-img-top" alt="..."/>
                                 <div className="card-body">
                                 <h6 className="card-title">Analyist - <span>Adron Dee</span></h6>
-                                <p className="card-text"> Dee has 5 years of experience inmarketing field. One of the leading consusltent working this area. </p>
+                                <p className="card-text"> Dee has 5 years of experience in marketing field. One of the leading consultent working this area. </p>
                                 
                                 </div>
                             </div>
                             
                             <div className="card img-size">
-                                <img src="https://th.bing.com/th/id/OIP._1sghklXOpCV_ZXWsA9jegAAAA?pid=ImgDet&rs=1" className="card-img-top" alt="..."/>
+                                <img src="https://i.ibb.co/257FH1g/avatar.png" className="card-img-top" alt="..."/>
                                 <div className="card-body">
-                                <h6 className="card-title">COO - Dan Mile</h6>
-                                <p className="card-text">Dan Mile the mastermind. He is guy who ensures 100% quality service we provide . he has been serving this company for like 10 years.</p>
+                                <h6 className="card-title">CTO - Yan kile</h6>
+                                <p className="card-text">Yan kile the mastermind. He is the guy who ensures 100% technical quality service we provide as smooth as possible. he has been serving this company for like 10 years.</p>
                                 
                                 </div>
                             </div>
@@ -114,6 +121,11 @@ const Aboutus = () => {
                             </div>
                             
                         </div>
+            
+            </div>
+            {/* Section quote button */}
+            <div>
+                <a className='btn px-3 py-3 bg-info text-black w-25 fs-3 mt-3 rounded-pill shadow' href='/services'>{element} Ask for a Quote</a>
             </div>
         </div>
     );

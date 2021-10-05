@@ -2,17 +2,21 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBarcode, faDesktop, faDice, faMountain } from '@fortawesome/free-solid-svg-icons'
 import './Footer.css'
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     const element = <FontAwesomeIcon icon={faBarcode} />
     const elementTwo = <FontAwesomeIcon icon={faDesktop} />
     const elementThree = <FontAwesomeIcon icon={faDice} />
     const elementFour = <FontAwesomeIcon icon={faMountain} />
+
     return (
         <div>
             <br />
             <br />
+            {/* Section footer head */}
             <div className='bg-dark shadow-lg p-2' ></div>
+            {/* Section footer body */}
             <div className='d-flex justify-content-around bg-info p-3 '>
                 <div className='text-dark text-center'>
                     <h4 >Contact</h4>
@@ -32,8 +36,17 @@ const Footer = () => {
                     <h4>{element} {elementTwo}</h4>
                     <h3>{elementThree}</h3>
                     <h3>{elementFour}</h3>
+                    <div>
+                            <NavLink className="links" to="/home">Home</NavLink><span> | </span>
+                            <NavLink className="links" to="/services">Services</NavLink> <span> | </span>
+                            <NavLink className="links" to="/aboutus">AboutUs</NavLink> <span> | </span>
+                            <NavLink className="links" to="/testimonials">Testimonials</NavLink>
+                            
+                        </div>
                 </div>
             </div>
+            
+            {/* Section footer bootom */}
             <h6 className='fw-light text-center bg-dark text-white m-0 pb-3'> © 2021 Etech-Solution </h6>
             
         </div>

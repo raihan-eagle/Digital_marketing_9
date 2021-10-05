@@ -27,9 +27,9 @@ const Testimonials = () => {
             </div>
             <br />
             <br />
-            <div className='bg-danger p-1 d-flex m-3 rounded'>
+            <div className='bg-warning p-1 d-flex m-3 rounded w-50 m-auto'>
                 
-                <div className='text-tes'>
+                <div className='text-tqo'>
                     <p>“ We have worked with Etech-Solution with 2 projects andextremely happy with the output. They are up to date with the current design trend and delivered us the final product in time. " - <span className='title-here'>M. Khaled</span></p>
                 </div>
                 <div>
@@ -38,7 +38,7 @@ const Testimonials = () => {
             </div>
             <br />
             <br />
-            <div className='bg-danger p-1 d-flex m-3 rounded'>
+            <div className='bg-danger p-1 d-flex m-3 rounded m-auto w-75'>
                 <div>
                     <img className='image-style m-3' src="https://i.ibb.co/1M2k18k/3117121.jpg" alt="" />
                 </div>
@@ -53,6 +53,9 @@ const Testimonials = () => {
                 <img  src="https://i.ibb.co/9bLmdfR/services-analytics-alt-colors-optimized.png" alt="" />
                 
             </div>
+
+            <br />
+            
         </div>
     );
 };

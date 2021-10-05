@@ -7,10 +7,15 @@ const Header = () => {
     return (
         
         <div>
+            {/* Section 1- top-bar */}
             <div className='top-bar d-flex justify-content-end py-1 px-3'>
                 <h6>Contact: +88-016-70000000</h6>
             </div>
+
+            {/* Section 2- main container */}
             <div className='container'>
+
+            {/* Section 2.1 Navbar */}
                 <nav className="navbar navbar-expand-lg navbar-dark bg-info rounded">
                     <div className="container-fluid">
                     <NavLink className="navbar-brand p-2 bg-warning rounded text-dark" to="/home">Etech-Solution</NavLink>
@@ -28,6 +33,8 @@ const Header = () => {
                     </div>
                     </div>
                 </nav>
+
+                {/* Section 2.2 Brand name & logo */}
                 <div className='mx-auto d-flex justify-content-center align-items-center mt-md-3'>
                     <img className='logo-image App-logo'  src={logo} alt="" />
                     <h2> Etech-Solution</h2>

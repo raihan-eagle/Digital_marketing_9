@@ -15,7 +15,7 @@ const Card = (props) => {
                                 <h5 className="card-title">{id} . {name}</h5>
                                 <p className="card-text">{Description.slice(0,330)}</p>
                                 <div className='d-md-flex justify-content-end align-items-center'>
-                                    <a class="btn btn-warning" href="https://www.google.com" role="button">Learn More</a>
+                                    <a class="btn btn-warning" href="/services" role="button">Learn More</a>
                                 </div>
                                 <p className="card-text"><small className="text-muted">Package: {packages}</small></p>
                                 <p className="card-text"><small className="text-muted">Price: {Price} BDT</small></p>

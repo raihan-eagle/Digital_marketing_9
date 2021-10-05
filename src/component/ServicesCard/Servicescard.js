@@ -14,7 +14,7 @@ const Servicescard = (props) => {
                                 <h5 className="card-title">{id} . {name}</h5>
                                 <p className="card-text p-2">{Description}</p>
                                 <div className='d-md-flex justify-content-start align-items-center mb-2'>
-                                    <a class="btn btn-warning" href="https://www.google.com" role="button">Learn More</a>
+                                    <a class="btn btn-warning" href="/services" role="button">Learn More</a>
                                 </div>
                                 <p className="card-text"><small className="text-muted">Package: {packages}</small></p>
                                 <p className="card-text"><small className="text-muted">Price: {Price} BDT</small></p>
